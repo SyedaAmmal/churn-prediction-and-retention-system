@@ -1,0 +1,3 @@
+risk_tier,customer_count,average_churn_probability,predicted_churn_rate,observed_churn_rate,percentage_of_customers
+HIGH,2278,0.5758986255028146,1.0,0.5899912203687445,0.3234417151781911
+LOW,4765,0.11715101065619846,0.0,0.11017838405036726,0.6765582848218089

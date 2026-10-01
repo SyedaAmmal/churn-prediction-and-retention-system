@@ -1,0 +1,50 @@
+# Python Virtual Environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Byte-compiled / optimized / cache files
+__pycache__/
+*.py[cod]
+*.log
+*$py.class
+*.so
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Environment and secrets
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local datasets and customer-level analysis
+data/raw/
+data/processed/
+reports/phase7_customer_risk_analysis.csv
